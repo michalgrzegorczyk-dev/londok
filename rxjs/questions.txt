@@ -1,0 +1,19 @@
+1. Który operator użyć w przypadku gdy chcemy aby zapytanie HTTP nie zostało przerwane przy emisji nowej wartości zewnętrznego observabla?
+Odpowiedzi: [switchMap, mergeMap, *exhaustMap*, concatMap]
+
+2. Jakie są 2 główne typy operatorów w rxjs?
+Odpowiedź: Pipeable oraz Creation operatory.
+Pipeable operator to taki operator który może zostać użyty w następujący sposób: observableInstance.pipe(operator()).
+Pipeable operatory są funkcjami czystymi (pure function), które przyjmują jeden observable jako parametr i zwracają nowego observabla.
+Wejściowa instancja observabla zostaje nienaruszona.
+Creation operator to taka funkcja która jest w stanie stworzyć nowego observabla.
+
+3. Czym jest High-Order Observable?
+Jest to taki observable który zwraca innego observabla (np. mergeMap)
+
+4. Jaka jest różnica pomiędzy mergeMap i concatMap?
+concatMap zachowuje kolejność wartości w strumieniu i na wyjściu subskrybent otrzyma wartości w tej samej kolejności.
+Natomiast w przypadku mergeMap ta kolejność nie jest zachowana i gdy jakiś wewnetrzy observable wyemituje wartość, to od razu ta wartość jest przekazywana do subskrybenta
+
+5. Dlaczego stworzono High-Order mapping operators?
+Stworzono je w celu uniknięcia zagnieżdzonych subskrybcji.
