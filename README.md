@@ -1,2 +1,1 @@
-# londottack
-## by Młody and Filip
+# londack
