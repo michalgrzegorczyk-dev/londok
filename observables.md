@@ -1,6 +1,6 @@
 ### Observables
 
-Observable rodzaj kolekcji "lazy push", które emitują wiele wartości. Według dokumentacji uzupełniają lukę w tej tabeli: 
+Observable rodzaj kolekcji "lazy push", które emitują wiele wartości. Observable to ten, KTÓRY JEST OBSEROWANY, BO EMITUJE WARTOSCI. Według dokumentacji uzupełniają lukę w tej tabeli: 
 
 <img width="400" alt="image" src="https://user-images.githubusercontent.com/47832176/210900325-be29d9f5-ae66-4057-b43f-f3c7497a5e60.png">
 
