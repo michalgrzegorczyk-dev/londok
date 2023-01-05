@@ -12,3 +12,10 @@ Observable mogą być synchroniczne i asynchroniczne. Synchronicznych observabl
 Demo: https://stackblitz.com/edit/rxjs-m1yw5b?devtoolsheight=60&file=index.ts 
 
 ## Czy jest asynchroniczność w RxJS? 
+
+## Jaka jest różnica pomiędzy funkcją, a observablem? 
+<details open>
+<summary>Najpierw odpowiedz, a potem zobacz</summary>
+<br>
+Well, you asked for it!
+</details>
