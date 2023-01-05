@@ -10,3 +10,5 @@ Observable rodzaj kolekcji "lazy push", które emitują wiele wartości. Według
 Observable mogą być synchroniczne i asynchroniczne. Synchronicznych observabli się raczej nie używa (ja nie widzę przypadku) ale można takie stworzyć. Pisząc w RxJs skupiamy się częściej albo tylko na asynchronicznych przxypadkach.
 
 Demo: https://stackblitz.com/edit/rxjs-m1yw5b?devtoolsheight=60&file=index.ts 
+
+## Czy jest asynchroniczność w RxJS? 
