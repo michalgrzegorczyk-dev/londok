@@ -1,1 +1,5 @@
+### Observables
 
+Observable to lazy Push kolekcje, które emitują wiele wartości. Według dokumentacji uzupełniają lukę w tej tabeli: 
+
+<img width="283" alt="image" src="https://user-images.githubusercontent.com/47832176/210890455-118598dc-a221-478b-8714-91b27f62cff0.png">
