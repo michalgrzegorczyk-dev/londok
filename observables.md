@@ -13,11 +13,13 @@ Observable - rodzaj kolekcji, który moze emitować wiele wartości każdego rod
   1. pipe()<br>
   2. subscribe()<br>
   3. forEach()<br>
-  4. toPromise() - zostaje usunięte - używać firstValueFrom lub lastValueFrom.
+  <img width="487" alt="image" src="https://user-images.githubusercontent.com/47832176/210905295-24169c4d-83ca-4360-a8c9-683a3b65653c.png">
+
+  4. toPromise() - zostaje usunięte - używać firstValueFrom lub lastValueFrom.
 </details>
   
   <details>
-  <summary>Co implementuje new Observer()?</summary>
+  <summary>Jakie API udostępnia new Observer()?</summary>
   Nie ma czegoś takiego mordo.
 </details>
   
