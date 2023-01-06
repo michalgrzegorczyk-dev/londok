@@ -1,9 +1,21 @@
 ### Observables
 
-Observable rodzaj kolekcji "lazy push", które emitują wiele wartości. Observable to ten, KTÓRY JEST OBSEROWANY, BO EMITUJE WARTOSCI. Według dokumentacji uzupełniają lukę w tej tabeli: 
+Observable - rodzaj kolekcji, który moze emitować wiele wartości każdego rodzaju w czasie.<br> Observable to ten, KTÓRY JEST OBSEROWANY, EMITUJE WARTOSCI I WYSYŁA NOTYFIKACJE DO OBSERWATORÓW.<br> No i oczywiście jest to najbardziej podstawowy klocek w RxJS.
 
-<img width="400" alt="image" src="https://user-images.githubusercontent.com/47832176/210900325-be29d9f5-ae66-4057-b43f-f3c7497a5e60.png">
 
+<details>
+  <summary>Co implementuje Observable?</summary>
+  export class Observable<T> implements Subscribable<T> {...}
+</details>
+
+<details>
+  <summary>Jakie API udostępnia Observable?</summary>
+  1. pipe()<br>
+  2. subscribe()<br>
+  3. forEach()<br>
+  4. toPromise() - zostaje usunięte - używać firstValueFrom lub lastValueFrom.
+</details>
+  
 
 <details>
 <summary>Kiedy observable mogą być synchroniczne? Czy mogą być?</summary>
