@@ -16,6 +16,11 @@ Observable - rodzaj kolekcji, który moze emitować wiele wartości każdego rod
   4. toPromise() - zostaje usunięte - używać firstValueFrom lub lastValueFrom.
 </details>
   
+  <details>
+  <summary>Co implementuje new Observer()?</summary>
+  Nie ma czegoś takiego mordo.
+</details>
+  
 
 <details>
 <summary>Kiedy observable mogą być synchroniczne? Czy mogą być?</summary>
