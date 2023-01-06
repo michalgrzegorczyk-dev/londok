@@ -9,7 +9,7 @@ Observable - rodzaj kolekcji, który moze emitować wiele wartości każdego rod
 </details>
 
 <details>
-  <summary>Jakie API udostępnia Observable?</summary>
+  <summary>Jakie API udostępnia  new Observable()?</summary>
   1. pipe()<br>
   2. subscribe()<br>
   3. forEach()<br>
