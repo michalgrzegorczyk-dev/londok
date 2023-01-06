@@ -74,5 +74,11 @@ Observable z natury są asynchroniczne i mogą emitować wiele wartości w cza
   To są przykłady jak można stworzyć observabla, jest ich o wiele więcej :) 
 
 </details>
+  
+  <details>
+  <summary>Czym jest hot observable?</summary>
+  W hot observablue wartości emitowane są poza observablem przy użyciu next().
+</details>
 
 
+//todo obgadac subject observers {observers} = this.
