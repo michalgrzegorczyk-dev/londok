@@ -4,7 +4,7 @@ Observable - rodzaj kolekcji, który moze emitować wiele wartości każdego rod
 
 
 <details>
-  <summary>Co implementuje Observable?</summary>
+  <summary>Jaki interfejs implementuje Observable?</summary>
   export class Observable<T> implements Subscribable<T> {...}
 </details>
 
@@ -64,7 +64,7 @@ Observable z natury są asynchroniczne i mogą emitować wiele wartości w cza
 
 
 <details>
-<summary>Jakie znasz przykłady observabli?</summary>
+<summary>Jakie znasz przykłady inicjalizowania observali?</summary>
   <img width="665" alt="image" src="https://user-images.githubusercontent.com/47832176/210899816-01fca7b2-bf37-4262-9ed9-f42974d094d1.png">
   <img width="673" alt="image" src="https://user-images.githubusercontent.com/47832176/210899777-c70adf0f-4cf3-45e4-bda3-32a7bb67488f.png">
   <img width="669" alt="image" src="https://user-images.githubusercontent.com/47832176/210899829-a0073b48-cc00-466c-bfa4-e24b74e947b7.png">
