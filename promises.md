@@ -15,5 +15,5 @@ Promis ma 3 stany:
 Emitują jak są hot :) 
 
 - Promisów nie można anulować, natomiast observable mają subskrybcje, które można anulować, żeby przestał emitować dalsze wartości
-- Promise nie ma żadnych operatorów (może poza then, który chainuje promisy i  response.json(), który konwertuje response z promisa do jsona), natomiast 
-observable ma pełno operacji, takich jak: map, retry, filter and more
+- Promise nie ma żadnych operatorów (poza funcjami all, allSettled, any, reace, może poza then, który chainuje promisy i  response.json(), który konwertuje response z promisa do jsona), natomiast 
+observable ma pełno operacji, takich jak: map, retry, filter i więcej
