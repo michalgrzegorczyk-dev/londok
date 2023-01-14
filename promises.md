@@ -17,3 +17,5 @@ Emitują jak są hot :)
 - Promisów nie można anulować, natomiast observable mają subskrybcje, które można anulować, żeby przestał emitować dalsze wartości
 - Promise nie ma żadnych operatorów (poza funcjami all, allSettled, any, reace, może poza then, który chainuje promisy i  response.json(), który konwertuje response z promisa do jsona), natomiast 
 observable ma pełno operacji, takich jak: map, retry, filter i więcej
+
+![image](https://user-images.githubusercontent.com/47832176/212471194-b703991f-4d9c-429e-afe5-58084007547e.png)
