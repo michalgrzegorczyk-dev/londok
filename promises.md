@@ -19,3 +19,5 @@ Emitują jak są hot :)
 observable ma pełno operacji, takich jak: map, retry, filter i więcej
 
 ![image](https://user-images.githubusercontent.com/47832176/212471194-b703991f-4d9c-429e-afe5-58084007547e.png)
+pull - my pobieramy wartosc
+push - ktos nam ja wpycha :) 
