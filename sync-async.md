@@ -42,3 +42,15 @@ się w jednym wątku.
 </details>
 
 
+
+
+
+
+
+
+
+
+
+
+https://www.youtube.com/watch?v=cCOL7MC4Pl0&ab_channel=JSConf
+https://www.youtube.com/watch?v=8zKuNo4ay8E&ab_channel=AkshaySaini
