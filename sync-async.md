@@ -28,7 +28,7 @@ W tym wypadku kolejność wykonania będzie różna. Wyświetli się 'Pierwszy',
 <summary>1.3 Jaka jest róznica pomiędzy synchronicznym i asynchronicznym Javascriptem?</summary>
 1. Synchroniczne instrukcje wykonują się w podanej sekwencji. Instrukcje w asynchronicznym JS nie wykonują się jedna po drugiej.<br>
 2. Synchroniczne Instrukcje czekają na wykonanie się poprzedniej instrukcji. Asynchroniczne instrukcje nie czekają na wykonanie się poprzedniej
-  instrukcji tylko trafiają do event loopa.<br>
+  instrukcji najpierw zostaja wykonane np. odczekuja 2sekundy (bo setTimeout), potem trafiaja do kolejki mikro albo makro taskow, a nastepnie jesli call stak jest pusty, zostaja pobierane taski z kolejek - pierwsza kolejnosc ma mikro i trafiaja na call stack. <br>
 3. Większość czasu Javascript używa synchronicznego kodu. Natomiast asynchroniczny Javacript jest preferowany w sytuacjach kiedy wykonanie kodu zostaje
   zablokowane w sposób nieokreslony.
 </details>
