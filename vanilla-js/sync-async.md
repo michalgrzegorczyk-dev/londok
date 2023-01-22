@@ -1,4 +1,4 @@
-# Generalne pytania o Javascript
+# Pytania o synchronicznosc i asynchronicznosc
 
 <details>
 <summary>1. Javascript jest synchroniczny czy asynchroniczny?</summary>
